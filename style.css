@@ -1,0 +1,211 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+.main {
+    width: 100%;
+    height: 100vh;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8)), url("images/image\ 1.jpg");
+    background-size: cover;
+    background-position: center;
+    padding: 1px;
+}
+
+nav {
+
+    width: 100%;
+    height: 40px;
+    color: white;
+}
+
+.menu {
+    width: 50%;
+    height: 100%;
+    float: left;
+    background-color: rgb(50, 50, 50);
+}
+
+.name {
+    padding-top: 10px;
+    text-align: center;
+    width: 50%;
+    height: 100%;
+    float: left;
+    background-color: rgb(50, 50, 50);
+}
+
+.list {
+    list-style: none;
+    padding-left: 150px;
+}
+
+li {
+    display: inline-block;
+    margin-left: 20px;
+    padding: 10px;
+}
+
+li:hover {
+    color: rgb(18, 134, 250);
+    background-color: rgba(75, 73, 73, 0.801);
+}
+
+.text {
+    position: relative;
+    top: 35%;
+    height: 50px;
+    text-align: center;
+    color: white;
+}
+
+h1 {
+    font-size: 40px;
+}
+
+span {
+    color: rgb(18, 134, 250);
+}
+
+.a-text {
+    width: 70px;
+    height: 35px;
+    background-color: rgb(50, 50, 50);
+    padding: 10px;
+    text-decoration: none;
+    color: white;
+    border-radius: 3px;
+}
+
+.a-text:hover {
+    background-color: rgba(86, 86, 86, 0.801);
+}
+
+section {
+    width: 100%;
+    height: 300px;
+}
+
+.history {
+    width: 50%;
+    height: 100%;
+    float: left;
+    background-color: rgb(50, 50, 50);
+}
+
+img {
+    width: 100%;
+    height: 100%;
+}
+
+.history {
+    text-align: center;
+    color: white;
+}
+
+h2 {
+    padding-top: 40px;
+}
+
+.p-history {
+    padding: 0px 15px;
+}
+
+.a-history {
+    width: 50px;
+    height: 30px;
+    background-color: white;
+    color: black;
+    border-radius: 2px;
+    padding: 10px;
+    text-decoration: none;
+}
+
+.a-history:hover {
+    background-color: rgb(18, 134, 250);
+}
+
+.boxes {
+    width: 100%;
+    height: 200px;
+}
+
+.box {
+    float: left;
+    width: 33.333333%;
+    height: 100%;
+    background-color: white;
+    text-align: center;
+}
+
+.box:hover {
+    background-color: rgb(18, 134, 250);
+}
+
+.img {
+    width: 50px;
+    height: 50px;
+    margin-top: 20px;
+    border-radius: 50%;
+}
+
+h4 {
+    padding: 15px;
+}
+
+.p-box {
+    font-size: 14px;
+}
+
+.footer {
+    width: 100%;
+    height: 30px;
+    padding: 5px;
+    position: fixed;
+    bottom: 0;
+    text-align: center;
+    color: white;
+    background-color: rgb(50, 50, 50);
+}
+
+@media (max-width:600px) {
+    .name {
+        width: 100%;
+    }
+
+    .menu {
+        width: 100%;
+        height: auto;
+    }
+
+    .list {
+        padding: 0;
+    }
+
+    li {
+        display: block;
+        text-align: center;
+        margin: 0;
+    }
+
+    .history {
+        width: 100%;
+    }
+
+    .box {
+        width: 100%;
+    }
+}
+
+@media (min-width:601px) and (max-width:840px) {
+    .list {
+        padding-left: 0px;
+    }
+
+    h2 {
+        padding-top: 10px;
+    }
+
+}
